@@ -3,7 +3,7 @@ module "chapter" {
 }
 
 resource "lab" "minimal" {
-  title = "Ref main updated"
+  title = "Ref main"
   description = "This is a minimal example lab."
 
   layout "minimal" {
